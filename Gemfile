@@ -72,3 +72,7 @@ gem "nifty-generators", :group => :development
 gem 'protected_attributes_continued'
 gem 'mongoid', '~> 7.0.0'
 
+gem "paperclip", "~> 2.3"
+
+
+gem 'mocha', group: :test
