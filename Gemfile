@@ -56,6 +56,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -67,3 +68,7 @@ gem 'devise'
   
 #for layout and helpers generations 
 gem "nifty-generators", :group => :development
+
+gem 'protected_attributes_continued'
+gem 'mongoid', '~> 7.0.0'
+
